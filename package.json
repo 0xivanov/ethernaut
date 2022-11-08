@@ -1,0 +1,21 @@
+{
+  "name": "ethernaut",
+  "author": "Ivan Ivanov",
+  "version": "1.0.0",
+  "main": "hardhat.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile"
+  },
+  "dependencies": {
+    "@ethersproject/address": "^5.7.0",
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "@openzeppelin/contracts": "3.2.0"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-web3": "^2.0.0"
+  }
+}
